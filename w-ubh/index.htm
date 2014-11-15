@@ -2,14 +2,13 @@
 var sw_targ=true; var ff_targ=''; var qs = querySt('r'); switch(qs) {
 case 'mytest22'	:ff_targ='dest/idxtrees.htm';			ff_targ_text='Route Tree Test';		break; // bit.ly/?????http://leftly.github.io/rd/route-trees.htm?r=mytest22
 case 'mytest33'	:ff_targ='dest/idxtrees.htm';			ff_targ_text='sfdgzfg sdg sdfg ';   break; // bit.ly/?????
-default:sw_targ=false;break;
+default:sw_targ=false;ff_targ='http://urbanharvestuk.wordpresss.com/';break;
 }
 if (sw_targ==true) {window.location.href=ff_targ; document.write('<meta http-equiv="refresh" content="1;url='+ff_targ+'"><title>'+ff_targ_text+'</title>'); }
 else {document.write('There may have been an error - no action possible'+qs);}
 function querySt(Key) {var url = window.location.href; KeysValues = url.split(/[\?&]+/);
 for (i = 0; i < KeysValues.length; i++) {KeyValue = KeysValues[i].split("="); if (KeyValue[0] == Key) {return KeyValue[1];}}}
-//<!-- partial redirect http://purl.org/TreeWardens/UK/ goes to http://leftly.github.io/rd/
-http://purl.org/TreeWardens/UK/route-trees.htm?r=mytest22 -->
+//<!-- redirect http://leftly.github.io/rd/w-ubh/index.htm goes to 'http://urbanharvestuk.wordpresss.com/' -->
 </script></head><body>
 </body></html>
 
