@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Module>
 <ModulePrefs title="Slideshow from Picasa Media RSS Feed"
-title_url="https://sites.google.com/site/annuairevin/media-rss-feed-slideshow"
+title_url="http://leftly.github.io/rd/gadgets/picasa/"
 height="300"
 width="220"
 scrolling="false"
@@ -17,10 +17,9 @@ author_link="http://leftly.github.io"
 author_photo="http://leftly.github.io/rd/gadgets/picasa/gadget-author-photo.png"
 author_aboutme="Just another coder"
 author_quote="A chief is a man who assumes responsibility. He says &quot;I was beaten&quot; he does not say &quot;My men were beaten&quot; - Antoine de Saint-Exupery">
-
 </ModulePrefs>
 
-<UserPref name="FEED" display_name="Feed to display" required="true" default_value="https://picasaweb.google.fr/data/feed/base/user/philippe.chappuis/albumid/5297196325809923457?alt=rss&amp;kind=photo&amp;hl=en" />
+<UserPref name="FEED" display_name="Feed to display" required="true" default_value="https://picasaweb.google.com/data/feed/base/user/118192977143925015109/albumid/5805095701009185537?alt=rss&kind=photo&authkey=Gv1sRgCO73g6374vPwrQE&hl=en_GB" />
 
 <UserPref name="PWH" display_name="Width of pictures" required="true" default_value="280" />
 <UserPref name="PHT" display_name="Height of pictures" required="true" default_value="190" />
