@@ -46,8 +46,7 @@ author_quote="A chief is a man who assumes responsibility. He says &quot;I was b
 body {background-color: __UP_CCOL__;}
 #slide_box
 {width: __UP_PWH__px; height: __UP_PHT__px; margin: 0; background-color: __UP_SCOL__; border: 2px solid __UP_BCOL__; padding: 4px; }
-#slide_box a img
-{
+#slide_box a img {
 border: 0;
 }
 
